@@ -6,7 +6,7 @@ int* ptr;
 int sal;
 clrscr();
 ptr=&sal;
-printf("\nMemor address=%p",&sal);
+printf("\nMemory address=%p",&sal);
 printf("\nEnter the person's salary=");
 scanf("%d",&sal);
 *ptr=*ptr*2;
